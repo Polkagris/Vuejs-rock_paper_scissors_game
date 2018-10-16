@@ -5,7 +5,12 @@ body{
 }
 #title{
   text-align: center;
+  font-size: 4em;
+  margin-bottom: 100px;
 }
 #buttons{
   text-align: center;
+}
+.container{
+  margin-top: 200px;
 }
