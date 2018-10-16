@@ -1,0 +1,11 @@
+body{
+  max-width: 960px;
+  margin:auto;
+  background-color: #bcbfc4;
+}
+#title{
+  text-align: center;
+}
+#buttons{
+  text-align: center;
+}
