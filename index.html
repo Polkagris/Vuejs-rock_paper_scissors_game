@@ -18,11 +18,14 @@
     <p>User: {{ user }}</p>
     <p>Computer: {{ computer }}</p>
     <p>User: {{ you }}</p>
+    <h1 v-if="bWin">You win! {{ you }} beats {{ computer }}</h1>
+    <h1 v-if="bLose">You lose! {{ computer }} beats {{ you }}</h1>
+    <h1 v-if="bTie">Draw!</h1>
     <button v-on:click="randomGenerator(0)">rock</button>
     <button v-on:click="randomGenerator(1)">paper</button>
     <button v-on:click="randomGenerator(2)">scissors</button>
+    <button v-on:click="resetScoreboard">Reset</button>
   </div>
-
   <script src="./app.js"></script>
 </body>
 </html>
